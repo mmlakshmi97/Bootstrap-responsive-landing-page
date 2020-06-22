@@ -1,0 +1,207 @@
+*{
+    font-family: avenir;
+}
+body{
+    /* padding-bottom: 60px; */
+}
+.firstdiv
+{
+    overflow: hidden;
+    background-image: url("images/available-bg.png")
+}
+.p-0{
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 30px;
+}
+ul li a{
+    color: white;
+}
+.text-white h2, .text-white h6{
+    color: white;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+
+}
+.navbar-toggle{
+    margin-top: -40px;
+    border-color: #333;
+    cursor: pointer;
+}
+.text-white h2{
+    letter-spacing: 0.6px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.nav-item{
+    cursor: pointer;
+}
+h6{
+    letter-spacing: 0.6px;
+}
+button{
+    border-radius: 5px;
+}
+.cstm-btn{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mt-35{
+    margin-top: 25px;
+}
+.vl{
+    display: inline-block;
+    border-left: 2px solid white;
+    height: 25px;
+    margin-top: 15px;
+
+}
+.p1550{
+    padding: 15px 50px;
+
+}
+.sec-1div{
+    background: #fbf4f4;
+    padding: 50px;
+
+}
+.bx-sh div {
+    /* box-shadow: 5px 10px 8px 10px #888888; */
+    background: white;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    min-height: 250px;
+
+}
+.c-grey{
+    color: gray;
+    font-weight: 500;
+}
+.bx-sh div:nth-child(2){
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.sec-2div{
+    background: white;
+    padding: 50px;
+
+}
+.sec-2div div:nth-child(1){
+    text-align: right;
+}
+.sec-2div div:nth-child(2){
+    text-align: center;
+}
+.hov-div div:hover{
+    background: blue;
+    cursor: pointer;
+    color: white;
+}
+.listdiv{
+    box-shadow: 0 3px 10px rgba(34, 25, 25, 0.4);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    max-width: 400px;
+    text-align: left;
+}
+.sec-3div{
+    background: #fbf4f4;
+    padding: 20px;
+
+}
+.badgediv i{
+    color: blue;
+}
+.badgediv h5{
+    display: inline-block;
+}
+.sec-4div{
+    background-image: url("images/banner-bg.png");
+    padding: 50px;
+}
+.sec-4div div:nth-child(1){
+    text-align: right;
+    padding-right: 70px;
+}
+.sec-5div{
+    text-align: center;
+}
+.sec5div-lab div > label{
+    display: block;
+    color: #333;
+    font-weight: 400;
+
+}
+.sec5div-lab div > label:nth-child(1){
+    font-weight: 700;
+}
+.cstm-red-btn{
+    width: 200px;
+    height: 40px;
+    background: #ff2121;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0;
+    margin-top: -20px;
+
+}
+.sec5div-lab{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.footer{
+    height: 50px;
+    background: #313142;
+    margin-top: 20px;
+}
+.cstm-input{
+    width: 300px;
+    margin-right: 5px;
+    height: 35px;
+    background: grey;
+    border: none;
+}
+.cstm-count-btn{
+    border-radius: 0px;
+    background: blue;
+    color: white;
+    
+}
+img{
+    overflow: hidden;
+    max-width: 100%;
+
+}
+@media only screen and (max-width:600px){
+
+    .navbar-collapse ul{
+        text-align: right;
+        border: 1px solid grey;
+    
+    }
+    .navbar-collapse ul li{
+        padding: 10px;
+    
+    }
+    .bx-sh div:nth-child(2){
+        margin:10px;
+    }
+}
+@media only screen and (max-width:768px){
+    .bx-sh div:nth-child(2){
+        margin:10px;
+    }
+}
