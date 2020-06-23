@@ -185,6 +185,18 @@ img{
     max-width: 100%;
 
 }
+.footer-ul{
+    display: flex;margin: 0;
+    float: right;
+
+}
+.footer-ul li{
+    padding: 15px 20px;
+}
+.footer-ul li > i{
+    color: white;
+    font-size: 20px;
+}
 @media only screen and (max-width:600px){
 
     .navbar-collapse ul{
